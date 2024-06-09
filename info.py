@@ -56,21 +56,21 @@ FILES_DELETE = is_enabled((environ.get('FILES_DELETE', 'True')), False)
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '5783103507').split()]
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'urlshortx.com'))
-STREAM_API = (environ.get('STREAM_API', '8afa8fbc218cc0791c62495f2c510c92524503ce'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'livekhabar.online'))
+STREAM_API = (environ.get('STREAM_API', '6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hoghjhh'))
-STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "False")), False)
+STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
-VERIFY2_URL = environ.get('VERIFY2_URL', "ziplinker.net")
-VERIFY2_API = environ.get('VERIFY2_API', "e45148e36c775f7602b27f6036bcd96a750db1c8")
+VERIFY2_URL = environ.get('VERIFY2_URL', "livekhabar.online")
+VERIFY2_API = environ.get('VERIFY2_API', "6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07")
 
 # file Shortner urls
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'e45148e36c775f7602b27f6036bcd96a750db1c8')
-IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'livekhabar.online')
+SHORTLINK_API = environ.get('SHORTLINK_API', '6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07')
+IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/shortnf')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
