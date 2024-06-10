@@ -62,7 +62,7 @@ STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hoghjhh'))
 STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/wrmovies/55?comment=810")
 VERIFY2_URL = environ.get('VERIFY2_URL', "livekhabar.online")
 VERIFY2_API = environ.get('VERIFY2_API', "6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07")
