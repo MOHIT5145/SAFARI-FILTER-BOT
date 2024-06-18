@@ -57,7 +57,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'livekhabar.online'))
-STREAM_API = (environ.get('STREAM_API', '6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07'))
+STREAM_API = (environ.get('STREAM_API', '13c9ab5dae98715c446d52aa39b9aed2f29d03bb'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/Hoghjhh'))
 STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
 
@@ -65,11 +65,11 @@ STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/wrmovies/55?comment=810")
 VERIFY2_URL = environ.get('VERIFY2_URL', "livekhabar.online")
-VERIFY2_API = environ.get('VERIFY2_API', "6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07")
+VERIFY2_API = environ.get('VERIFY2_API', "13c9ab5dae98715c446d52aa39b9aed2f29d03bb")
 
 # file Shortner urls
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'livekhabar.online')
-SHORTLINK_API = environ.get('SHORTLINK_API', '6ff6b80b8dbce57cf5fa52e1f6b38eec82c79d07')
+SHORTLINK_API = environ.get('SHORTLINK_API', '13c9ab5dae98715c446d52aa39b9aed2f29d03bb')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/wrmovies/55?comment=810')
