@@ -137,11 +137,10 @@ BOT {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
-🧿  Title: <a href={url}>{title}</a>
-🎭 Genres: {genres}
-📀 RunTime: {runtime} Minutes</b> """
-⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : 👇
-⚡ Tata Movie Search™ 
+🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>
+🎭 Gᴇɴʀᴇꜱ: {genres}
+📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>
+🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
