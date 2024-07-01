@@ -132,7 +132,7 @@ BOT {}"""
 ★ Message <code>{}</code>"""
 
  CAPTION = """
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/Movie_Official_Hindi">{file_name}</a><b>
+<b>❤️‍🔥 Fɪʟᴇ ɴᴀᴍᴇ : </b><a href="https://t.me/Movie_Official_Hindi">{file_name}</a><b>
 
 मेरे भाई बैकअप चैनल ज्वाइन कर के रखो📥 
 पता न कब कॉपीराइट आ जाए 👇
@@ -147,9 +147,11 @@ BOT {}"""
 <b>
 🧿  Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
-📆 Year: <a href={url}/releaseinfo>{year}</a>
+📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :{user}
 🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
 📀 RunTime: {runtime} Minutes</b> """
+⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : 👇
+⚡ Tata Movie Search™ 
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
