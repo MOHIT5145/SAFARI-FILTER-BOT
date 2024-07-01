@@ -145,7 +145,7 @@ BOT {}"""
 
     IMDB_TEMPLATE_TXT = """
 <b>
-🏷 Title: <a href={url}>{title}</a>
+🧿  Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
