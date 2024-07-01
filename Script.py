@@ -140,7 +140,6 @@ BOT {}"""
 🧿  Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📝 ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :{user}
-🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
 📀 RunTime: {runtime} Minutes</b> """
 ⚜️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : 👇
 ⚡ Tata Movie Search™ 
