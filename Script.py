@@ -132,7 +132,7 @@ BOT {}"""
 ★ Message <code>{}</code>"""
 
     CAPTION = """
-<b>❤️‍🔥 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}</b>"""
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : <b>{file_name}</b>"""
 
 
     IMDB_TEMPLATE_TXT = """
