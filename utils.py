@@ -660,8 +660,8 @@ async def send_all(bot, userid, files, ident):
                         [
                         InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file.file_id}")
                     ],[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('🍁Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🍁', url=GRP_LNK),
+                        InlineKeyboardButton('😍Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ😍', url=CHNL_LNK)
                         ]
                     ]
                 )
