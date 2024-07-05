@@ -66,9 +66,9 @@ async def start(client, message):
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('😍ᴜᴘᴅᴀᴛᴇꜱ 😍', callback_data='channels')
+                    InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇꜱ ', callback_data='channels')
                 ],[
-                    InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅꜱ 🍁', callback_data='help'),
+                    InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                     
                   ]]
@@ -130,7 +130,7 @@ async def start(client, message):
                     InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('💸 ᴇᴀʀɴ ᴍᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-                    InlineKeyboardButton('♻️ ᴜᴘᴅᴀᴛᴇꜱ ♻️', callback_data='channels')
+                    InlineKeyboardButton(' ᴜᴘᴅᴀᴛᴇꜱ ', callback_data='channels')
                 ],[
                     InlineKeyboardButton('ᴄᴏᴍᴍᴀɴᴅꜱ ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ •', callback_data='about')
@@ -487,8 +487,8 @@ async def start(client, message):
                       InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
               
                    ],[
-                      InlineKeyboardButton('🍁Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🍁', url=GRP_LNK),
-                      InlineKeyboardButton('😍Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ😍', url=CHNL_LNK)
+                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                      ]
                     ]
                 )
