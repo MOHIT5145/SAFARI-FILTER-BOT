@@ -230,7 +230,7 @@ async def next_page(bot, query):
             InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"safaridev#{req}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("!Sᴇɴᴅ Aʟʟ Tᴏ PM!", callback_data=f"sendfiles#{key}"),  
+            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),  
         ])
     try:
         if settings['max_btn']:
