@@ -215,9 +215,9 @@ async def next_page(bot, query):
             for file in files
         ]
         btn.insert(0, [
-            InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{req}"),
-            InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{req}"),
-            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"safaridev#{req}")
+            InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{req}"),
+            InlineKeyboardButton("🤡Qᴜᴀʟɪᴛʏꜱ🤡", callback_data=f"lusi_films#{req}"),
+            InlineKeyboardButton("🥶Sᴇᴀꜱᴏɴꜱ🥶", callback_data=f"safaridev#{req}")
         ])
         btn.insert(0, [
             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),  
@@ -225,12 +225,12 @@ async def next_page(bot, query):
     else:
         btn = []
         btn.insert(0, [
-            InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{req}"),
-            InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{req}"),
-            InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"safaridev#{req}")
+            InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{req}"),
+            InlineKeyboardButton("🤡Qᴜᴀʟɪᴛʏꜱ🤡", callback_data=f"lusi_films#{req}"),
+            InlineKeyboardButton("🥶Sᴇᴀꜱᴏɴꜱ🥶", callback_data=f"safaridev#{req}")
         ])
         btn.insert(0, [
-            InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"sendfiles#{key}"),  
+            InlineKeyboardButton("!⚡Sᴇɴᴅ Aʟʟ Tᴏ PM⚡!", callback_data=f"sendfiles#{key}"),  
         ])
     try:
         if settings['max_btn']:
@@ -245,13 +245,13 @@ async def next_page(bot, query):
                     [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
                 )
             elif off_set is None:
-                btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
+                btn.append([InlineKeyboardButton("⚡𝐏𝐀𝐆𝐄⚡", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
-                        InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
+                        InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊⚡", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
-                        InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                        InlineKeyboardButton("🍁𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
         else:
@@ -266,13 +266,13 @@ async def next_page(bot, query):
                     [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages")]
                 )
             elif off_set is None:
-                btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
+                btn.append([InlineKeyboardButton("⚡𝐏𝐀𝐆𝐄⚡", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
             else:
                 btn.append(
                     [
                         InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                         InlineKeyboardButton(f"{math.ceil(int(offset)/int(MAX_B_TN))+1} / {math.ceil(total/int(MAX_B_TN))}", callback_data="pages"),
-                        InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                        InlineKeyboardButton("🍁𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                     ],
                 )
     except KeyError:
@@ -288,13 +288,13 @@ async def next_page(bot, query):
                 [InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages")]
             )
         elif off_set is None:
-            btn.append([InlineKeyboardButton("𝐏𝐀𝐆𝐄", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
+            btn.append([InlineKeyboardButton("⚡𝐏𝐀𝐆𝐄⚡", callback_data="pages"), InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"), InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")])
         else:
             btn.append(
                 [
                     InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                     InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
-                    InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
+                    InlineKeyboardButton("🍁𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                 ],
             )
     
@@ -355,7 +355,7 @@ async def language_check(bot, query):
         else:
             btn = []
             btn.insert(0, [
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
+                InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{userid}"),
                 InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"safaridev#{userid}")
             ])
@@ -468,7 +468,7 @@ async def quality_check(bot, query):
                 for file in files
             ]
             btn.insert(0, [
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
+                InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"lusi_films#{userid}"),
                 InlineKeyboardButton("Sᴇᴀꜱᴏɴꜱ", callback_data=f"safaridev#{userid}")
             ])
@@ -478,7 +478,7 @@ async def quality_check(bot, query):
         else:
             btn = []
             btn.insert(0, [
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
+                InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{userid}"),
                 InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"safaridev#{userid}")
             ])
@@ -584,7 +584,7 @@ async def seasons_check(bot, query):
                 for file in files
             ]
             btn.insert(0, [
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
+                InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{userid}"),
                 InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"safaridev#{userid}")
             ])
@@ -594,7 +594,7 @@ async def seasons_check(bot, query):
         else:
             btn = []
             btn.insert(0, [
-                InlineKeyboardButton("Lᴀɴɢᴜᴀɢᴇ", callback_data=f"select_lang#{userid}"),
+                InlineKeyboardButton("🍁Lᴀɴɢᴜᴀɢᴇ🍁", callback_data=f"select_lang#{userid}"),
                 InlineKeyboardButton("Qᴜᴀʟɪᴛʏꜱ", callback_data=f"lusi_films#{userid}"),
                 InlineKeyboardButton("Sᴇʟᴇᴄᴛ Aɢᴀɪɴ", callback_data=f"safaridev#{userid}")
             ])
@@ -1014,8 +1014,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 [
                                 InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                             ],[
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                                InlineKeyboardButton('🍁Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🍁', url=GRP_LNK),
+                                InlineKeyboardButton('⚡Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚡', url=CHNL_LNK)
                                 ]
                                 ]
                             )
@@ -1115,8 +1115,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                  [
                   InlineKeyboardButton("🖥️ Wᴀᴛᴄʜ & Dᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                ],[
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('🍁Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ🍁', url=GRP_LNK),
+                  InlineKeyboardButton('⚡Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ⚡', url=CHNL_LNK)
                  ]
                 ]
             ))
