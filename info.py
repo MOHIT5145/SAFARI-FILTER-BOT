@@ -69,7 +69,7 @@ VERIFY2_API = environ.get('VERIFY2_API', "13c9ab5dae98715c446d52aa39b9aed2f29d03
 
 # file Shortner urls
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'livekhabar.online')
-SHORTLINK_API = environ.get('SHORTLINK_API', '13c9ab5dae98715c446d52aa39b9aed2f29d03bb')
+SHORTLINK_API = environ.get('SHORTLINK_API', '2e70cafacf38e6de4b1575760eacb79166878f11')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'True')), False)
 
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/wrmovies/55?comment=810')
