@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', "27693415")
-API_HASH = environ.get('API_HASH', "8dc020d35ff99813b494f20955d8c724")
-BOT_TOKEN = environ.get('BOT_TOKEN', "7518225042:AAFCtSp2kkfifd5xoBJG-ZKqAUXLDBe0sPI")
+API_ID = int(environ.get('API_ID', "29870283")
+API_HASH = environ.get('API_HASH', "e803aa1882327dc35bb0276279a849c2")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 
 # Bot settings
@@ -37,7 +37,7 @@ QR_CODE = environ.get('QR_CODE', '') # Scanner Code image
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
 REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
 #premium Users Satuts
-premium = environ.get('PREMIUM_LOGS', '-1002300492137')
+premium = environ.get('PREMIUM_LOGS', '-1002080161079')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 # lock file, set file limit 
 FILE_LIMITE = int(environ.get('FILE_LIMITE', 15))
@@ -45,17 +45,17 @@ SEND_ALL_LIMITE = int(environ.get('SEND_ALL_LIMITE', 3))
 LIMIT_MODE = is_enabled((environ.get('LIMIT_MODE', 'True')), False)
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5783103507').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6522991984').split()]
 OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "wrrohit02") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002368285115').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002149802025').split()]
 # post channel auto post new movie
-POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '-1002471849392').split(','))))
+POST_CHANNELS = list(map(int, (channel.strip() for channel in environ.get('POST_CHANNELS', '--1002080161079').split(','))))
 AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '0'))
 AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '0'))
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://wrrohit02:wrrohit02@cluster0.2wx6k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://modes10542:XyHc63deIs6fFSSM@cluster0.geelpoy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'wrrohit02')
 
@@ -94,10 +94,10 @@ PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/wrbackup')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/wrmovies')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002422113876))
-GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002422113876)) # Group verify stats 
-REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002471849392)) # movies request channel, else log channel
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Jhwjwp')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1002162269855))
+GROUP_VERIFY_LOGS = int(environ.get('GROUP_VERIFY_LOGS', -1002162269855)) # Group verify stats 
+REQ_CHANNEL = int(environ.get('REQ_CHANNEL', -1002162269855)) # movies request channel, else log channel
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'motumovies')
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
@@ -115,7 +115,7 @@ MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 REACTION = ["🔥", "❤️", "😍", "⚡", "👍", "❤", "🔥", "🥰", "👏", "😁", "🎉", "🤩", "🙏", "👌", "🕊", "❤‍🔥", "⚡", "😇", "🤗", "😘", "🙊", "😎"]
 
 # Streaming
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1001637710147")) 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", "-1002162269855")) 
 PORT = int(environ.get('PORT', 8080))
 NO_PORT = bool(environ.get('NO_PORT', False))
 APP_NAME = None
